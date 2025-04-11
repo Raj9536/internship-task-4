@@ -1,19 +1,71 @@
-#Project Title: "Internship Task 4"
+# 🚀 Internship Task 4 — Version-Controlled DevOps Project
 
+> **Submitted for:** Elevate Lab — DevOps Internship  
+> **Author:** Raj Kumar Mourya
 
-#Description: I have created this repository for completing the internship task no 4 given by the Elevate Lab.
+---
 
+## 📌 Project Description
 
-#SetUp Instruction: There is no special tools are used for building this task. I have used Git and GitHub commands for-
-   1. creating the new repository.
-   2. adding some new files init.
-   3. Adding the remote access to the repo.
-   4. checout multiple branches like main, dev, features.
-   5. and doing the commits in each branch separately.
-   6. After that creating the pull request from the features branch to the main branch.
-   7. then pushing the each branch's content to its origin.
-![image](https://github.com/user-attachments/assets/21995381-7d0d-41cb-9420-17979790fa75)
-![image](https://github.com/user-attachments/assets/0d921b89-1c17-42b4-818c-317882196b99)
-![image](https://github.com/user-attachments/assets/e3491fac-296f-43ca-92c3-7f4aa1d2454a)
+This repository contains my solution for **Task 4** of the DevOps Internship provided by **Elevate Lab**.  
+The objective of the task is to manage a DevOps project using Git best practices including proper branching, pull requests, commit tracking, tagging, and documentation.
+
+---
+
+## 🛠️ Tools Used
+
+- Git (Command Line)
+- GitHub (Remote Repository)
+
+---
+
+## ⚙️ Setup Instructions
+
+No special tools or frameworks are required. This project uses basic Git and GitHub features. Here's what I did step-by-step:
+
+1. ✅ Created a new GitHub repository.
+2. ✅ Initialized a local repository using `git init`.
+3. ✅ Added some sample files to track.
+4. ✅ Linked the local repo to GitHub using `git remote add origin`.
+5. ✅ Created and switched between branches:
+   - `main`
+   - `dev`
+   - `feature/<feature-name>`
+6. ✅ Made individual commits to each branch.
+7. ✅ Created a **Pull Request** from the `feature` branch to `main`.
+8. ✅ Pushed all branches to GitHub with `git push -u origin <branch-name>`.
+
+---
+
+## 🌿 Branching Strategy
+
+| Branch        | Purpose                                 |
+|---------------|------------------------------------------|
+| `main`        | Final stable code                        |
+| `dev`         | Integration and testing                  |
+| `feature/*`   | Individual features or task development  |
+
+---
+
+## 📸 Screenshots
+
+Here are a few snapshots of my Git workflow:
+
+<img src="https://github.com/user-attachments/assets/21995381-7d0d-41cb-9420-17979790fa75" width="600" alt="Branching Strategy"/>
+
+<img src="https://github.com/user-attachments/assets/0d921b89-1c17-42b4-818c-317882196b99" width="600" alt="Pull Request"/>
+
+<img src="https://github.com/user-attachments/assets/e3491fac-296f-43ca-92c3-7f4aa1d2454a" width="600" alt="Commits and Pushes"/>
+
+---
+
+## 🏷️ Git Tags
+
+Tags can be used for versioning.  
+Example:
+```bash
+git tag -a v1.0 -m "Initial stable version"
+git push origin v1.0
+
 
 
