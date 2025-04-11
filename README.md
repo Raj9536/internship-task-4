@@ -12,3 +12,4 @@
    5. and doing the commits in each branch separately.
    6. After that creating the pull request from the features branch to the main branch.
    7. then pushing the each branch's content to its origin.
+![image](https://github.com/user-attachments/assets/21995381-7d0d-41cb-9420-17979790fa75)
